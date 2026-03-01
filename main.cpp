@@ -1,10 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include "util.h"
-#include "Pointers.h"
-#include "bits.h"
-#include "complex.h"
-#include "geometry.h"
+#include "restaurante.h"
 
 using namespace std;
 
@@ -12,10 +8,6 @@ using namespace std;
 // make
 int main(){
     std::cout << "MCS-2026-PM\n";
-    // DemoInicial();
-    // DemoPunteros();
-    // DemoBits();
-    // DemoComplex();
-    DemoShapes();
+    DemoRestaurante();
     return 0;
 }

@@ -1,0 +1,101 @@
+\doxysection{Mozo Class Reference}
+\hypertarget{class_mozo}{}\label{class_mozo}\index{Mozo@{Mozo}}
+Inheritance diagram for Mozo\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_mozo}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mozo_ac169ea1fb564e4996a3b0eaa1bca9e5b}{Mozo}} (string nombre, string apellido, positivo edad, codigo id\+Empleado)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \doxylink{class_mozo}{Mozo}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_mozo_a1ee61f681fe30b0c56e92241eb66c2f0}{\texorpdfstring{$\sim$}{\string~}\+Mozo}} ()
+\begin{DoxyCompactList}\small\item\em Destructor de la clase \doxylink{class_mozo}{Mozo}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_mozo_ac0c2f7827398b98caa96bb30c93bb2de}{mostrar\+Informacion}} () const override
+\begin{DoxyCompactList}\small\item\em Muestra la información del mozo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_persona}{Persona}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Persona} (string nombre, string apellido, positivo edad)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \doxylink{class_persona}{Persona}. Inicializa un objeto \doxylink{class_persona}{Persona} con su nombre, apellido y edad. \end{DoxyCompactList}\item 
+{\bfseries Persona} (string nombre, string apellido)
+\begin{DoxyCompactList}\small\item\em Constructor alternativo de la clase \doxylink{class_persona}{Persona}. Inicializa un objeto \doxylink{class_persona}{Persona} con su nombre y apellido, asignando una edad por defecto de 0. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_persona_ab1eff3396cf027235b236153037d7a63}{\texorpdfstring{$\sim$}{\string~}\+Persona}} ()
+\begin{DoxyCompactList}\small\item\em Destructor virtual de la clase base \doxylink{class_persona}{Persona}. \end{DoxyCompactList}\item 
+virtual void {\bfseries Set\+Nombre} (string nombre)
+\item 
+virtual string {\bfseries Get\+Nombre} () const
+\item 
+virtual void {\bfseries Set\+Apellido} (string apellido)
+\item 
+virtual string {\bfseries Get\+Apellido} () const
+\item 
+virtual void {\bfseries Set\+Edad} (positivo edad)
+\item 
+virtual positivo {\bfseries Get\+Edad} () const
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_mozo_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_mozo_ac169ea1fb564e4996a3b0eaa1bca9e5b}\index{Mozo@{Mozo}!Mozo@{Mozo}}
+\index{Mozo@{Mozo}!Mozo@{Mozo}}
+\doxysubsubsection{\texorpdfstring{Mozo()}{Mozo()}}
+{\footnotesize\ttfamily \label{class_mozo_ac169ea1fb564e4996a3b0eaa1bca9e5b} 
+Mozo\+::\+Mozo (\begin{DoxyParamCaption}\item[{string}]{nombre}{, }\item[{string}]{apellido}{, }\item[{positivo}]{edad}{, }\item[{codigo}]{id\+Empleado}{}\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase \doxylink{class_mozo}{Mozo}. 
+
+Inicializa un objeto \doxylink{class_mozo}{Mozo} con su nombre, apellido, edad y id de empleado. Llama al constructor de la clase base \doxylink{class_persona}{Persona} para inicializar los atributos heredados.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & Nombre del mozo. \\
+\hline
+{\em apellido} & Apellido del mozo. \\
+\hline
+{\em edad} & Edad del mozo. \\
+\hline
+{\em id\+Empleado} & Número de identificación del empleado. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_mozo_a1ee61f681fe30b0c56e92241eb66c2f0}\index{Mozo@{Mozo}!````~Mozo@{\texorpdfstring{$\sim$}{\string~}Mozo}}
+\index{````~Mozo@{\texorpdfstring{$\sim$}{\string~}Mozo}!Mozo@{Mozo}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Mozo()}{\string~Mozo()}}
+{\footnotesize\ttfamily \label{class_mozo_a1ee61f681fe30b0c56e92241eb66c2f0} 
+Mozo\+::\texorpdfstring{$\sim$}{\string~}\+Mozo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destructor de la clase \doxylink{class_mozo}{Mozo}. 
+
+Libera los recursos asociados con el objeto \doxylink{class_mozo}{Mozo}. 
+
+\label{doc-func-members}
+\Hypertarget{class_mozo_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_mozo_ac0c2f7827398b98caa96bb30c93bb2de}\index{Mozo@{Mozo}!mostrarInformacion@{mostrarInformacion}}
+\index{mostrarInformacion@{mostrarInformacion}!Mozo@{Mozo}}
+\doxysubsubsection{\texorpdfstring{mostrarInformacion()}{mostrarInformacion()}}
+{\footnotesize\ttfamily \label{class_mozo_ac0c2f7827398b98caa96bb30c93bb2de} 
+void Mozo\+::mostrar\+Informacion (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Muestra la información del mozo. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_persona_a7622e7d27927f20d2bf7269ecf1e354d}{Persona}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+restaurante/mozo.\+h\item 
+restaurante/mozo.\+cpp\end{DoxyCompactItemize}

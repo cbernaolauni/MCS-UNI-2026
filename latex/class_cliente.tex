@@ -1,0 +1,102 @@
+\doxysection{Cliente Class Reference}
+\hypertarget{class_cliente}{}\label{class_cliente}\index{Cliente@{Cliente}}
+Inheritance diagram for Cliente\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_cliente}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cliente_ac5dc348c379c6a813fe254884455fff6}{Cliente}} (string nombre, string apellido, codigo id)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \doxylink{class_cliente}{Cliente}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_cliente_a29d1d53394350c66363109e33c990b58}{\texorpdfstring{$\sim$}{\string~}\+Cliente}} ()
+\begin{DoxyCompactList}\small\item\em Destructor de la clase \doxylink{class_cliente}{Cliente}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cliente_a08517ac8330e0db4a27aecb35ef894bb}{mostrar\+Informacion}} () const override
+\begin{DoxyCompactList}\small\item\em Muestra la información del cliente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_persona}{Persona}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Persona} (string nombre, string apellido, positivo edad)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \doxylink{class_persona}{Persona}. Inicializa un objeto \doxylink{class_persona}{Persona} con su nombre, apellido y edad. \end{DoxyCompactList}\item 
+{\bfseries Persona} (string nombre, string apellido)
+\begin{DoxyCompactList}\small\item\em Constructor alternativo de la clase \doxylink{class_persona}{Persona}. Inicializa un objeto \doxylink{class_persona}{Persona} con su nombre y apellido, asignando una edad por defecto de 0. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_persona_ab1eff3396cf027235b236153037d7a63}{\texorpdfstring{$\sim$}{\string~}\+Persona}} ()
+\begin{DoxyCompactList}\small\item\em Destructor virtual de la clase base \doxylink{class_persona}{Persona}. \end{DoxyCompactList}\item 
+virtual void {\bfseries Set\+Nombre} (string nombre)
+\item 
+virtual string {\bfseries Get\+Nombre} () const
+\item 
+virtual void {\bfseries Set\+Apellido} (string apellido)
+\item 
+virtual string {\bfseries Get\+Apellido} () const
+\item 
+virtual void {\bfseries Set\+Edad} (positivo edad)
+\item 
+virtual positivo {\bfseries Get\+Edad} () const
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_cliente_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_cliente_ac5dc348c379c6a813fe254884455fff6}\index{Cliente@{Cliente}!Cliente@{Cliente}}
+\index{Cliente@{Cliente}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{Cliente()}{Cliente()}}
+{\footnotesize\ttfamily \label{class_cliente_ac5dc348c379c6a813fe254884455fff6} 
+Cliente\+::\+Cliente (\begin{DoxyParamCaption}\item[{string}]{nombre}{, }\item[{string}]{apellido}{, }\item[{codigo}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase \doxylink{class_cliente}{Cliente}. 
+
+Inicializa un objeto \doxylink{class_cliente}{Cliente} con su nombre, apellido e identificador único. Llama al constructor de la clase base \doxylink{class_persona}{Persona} para inicializar los atributos heredados.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & Nombre del cliente. \\
+\hline
+{\em apellido} & Apellido del cliente. \\
+\hline
+{\em id} & Identificador único del cliente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+La edad se inicializa con el valor por defecto definido en \doxylink{class_persona}{Persona}. 
+\end{DoxyNote}
+\Hypertarget{class_cliente_a29d1d53394350c66363109e33c990b58}\index{Cliente@{Cliente}!````~Cliente@{\texorpdfstring{$\sim$}{\string~}Cliente}}
+\index{````~Cliente@{\texorpdfstring{$\sim$}{\string~}Cliente}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Cliente()}{\string~Cliente()}}
+{\footnotesize\ttfamily \label{class_cliente_a29d1d53394350c66363109e33c990b58} 
+Cliente\+::\texorpdfstring{$\sim$}{\string~}\+Cliente (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destructor de la clase \doxylink{class_cliente}{Cliente}. 
+
+Se ejecuta automáticamente cuando el objeto \doxylink{class_cliente}{Cliente} es destruido. Muestra un mensaje indicando la liberación del cliente. 
+
+\label{doc-func-members}
+\Hypertarget{class_cliente_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_cliente_a08517ac8330e0db4a27aecb35ef894bb}\index{Cliente@{Cliente}!mostrarInformacion@{mostrarInformacion}}
+\index{mostrarInformacion@{mostrarInformacion}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{mostrarInformacion()}{mostrarInformacion()}}
+{\footnotesize\ttfamily \label{class_cliente_a08517ac8330e0db4a27aecb35ef894bb} 
+void Cliente\+::mostrar\+Informacion (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Muestra la información del cliente. 
+
+Sobrescribe el método virtual de la clase \doxylink{class_persona}{Persona}. Primero muestra el identificador del cliente y luego muestra la información general heredada (nombre, apellido, edad). 
+
+Reimplemented from \mbox{\hyperlink{class_persona_a7622e7d27927f20d2bf7269ecf1e354d}{Persona}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+restaurante/cliente.\+h\item 
+restaurante/cliente.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,32 @@
+\doxysection{Mesa Class Reference}
+\hypertarget{class_mesa}{}\label{class_mesa}\index{Mesa@{Mesa}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_mesa_ae720f76c9c351564727cb769f81fe3c3}\label{class_mesa_ae720f76c9c351564727cb769f81fe3c3} 
+{\bfseries Mesa} (codigo id\+Mesa)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \doxylink{class_mesa}{Mesa}. Inicializa una mesa con un identificador único y sin mozo, clientes ni platos asignados. \end{DoxyCompactList}\item 
+\Hypertarget{class_mesa_aa0a1b83b8058f80f4f27ec46cc5e9524}\label{class_mesa_aa0a1b83b8058f80f4f27ec46cc5e9524} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+Mesa} ()
+\begin{DoxyCompactList}\small\item\em Destructor de la clase \doxylink{class_mesa}{Mesa}. \end{DoxyCompactList}\item 
+\Hypertarget{class_mesa_a051a27e4bc9ee194d343831245e10069}\label{class_mesa_a051a27e4bc9ee194d343831245e10069} 
+void {\bfseries asignar\+Mozo} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_mozo}{Mozo}} $>$ mozo)
+\begin{DoxyCompactList}\small\item\em Asigna un mozo a la mesa. \end{DoxyCompactList}\item 
+\Hypertarget{class_mesa_af5afd5f3d6a08921cc053b976cb12db1}\label{class_mesa_af5afd5f3d6a08921cc053b976cb12db1} 
+void {\bfseries agregar\+Cliente} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_cliente}{Cliente}} $>$ cliente)
+\begin{DoxyCompactList}\small\item\em Agrega un cliente a la mesa. \end{DoxyCompactList}\item 
+\Hypertarget{class_mesa_a0f732e797d3bfe7adeb7303945b71fa0}\label{class_mesa_a0f732e797d3bfe7adeb7303945b71fa0} 
+void {\bfseries agregar\+Pedido} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_pedido}{Pedido}} $>$ pedido)
+\begin{DoxyCompactList}\small\item\em Agrega un pedido a la mesa. \end{DoxyCompactList}\item 
+\Hypertarget{class_mesa_aaa82c5891eb0beae0d42591ae17291a9}\label{class_mesa_aaa82c5891eb0beae0d42591ae17291a9} 
+tipo\+Precio {\bfseries calcular\+Total\+Mesa} () const
+\begin{DoxyCompactList}\small\item\em Calcula el total de todos los pedidos de la mesa. \end{DoxyCompactList}\item 
+\Hypertarget{class_mesa_a7c551e92fe622c5b86fbed56c4069c07}\label{class_mesa_a7c551e92fe622c5b86fbed56c4069c07} 
+void {\bfseries mostrar\+Informacion} () const
+\begin{DoxyCompactList}\small\item\em Muestra la información completa de la mesa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+restaurante/mesa.\+h\item 
+restaurante/mesa.\+cpp\end{DoxyCompactItemize}

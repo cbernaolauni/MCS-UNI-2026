@@ -1,0 +1,84 @@
+\doxysection{Persona Class Reference}
+\hypertarget{class_persona}{}\label{class_persona}\index{Persona@{Persona}}
+Inheritance diagram for Persona\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_persona}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_persona_ac8071e66b8d2ce0db18924005947878a}\label{class_persona_ac8071e66b8d2ce0db18924005947878a} 
+{\bfseries Persona} (string nombre, string apellido, positivo edad)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \doxylink{class_persona}{Persona}. Inicializa un objeto \doxylink{class_persona}{Persona} con su nombre, apellido y edad. \end{DoxyCompactList}\item 
+\Hypertarget{class_persona_a130cb89217c79a720d814f1cf3f2bb13}\label{class_persona_a130cb89217c79a720d814f1cf3f2bb13} 
+{\bfseries Persona} (string nombre, string apellido)
+\begin{DoxyCompactList}\small\item\em Constructor alternativo de la clase \doxylink{class_persona}{Persona}. Inicializa un objeto \doxylink{class_persona}{Persona} con su nombre y apellido, asignando una edad por defecto de 0. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_persona_ab1eff3396cf027235b236153037d7a63}{\texorpdfstring{$\sim$}{\string~}\+Persona}} ()
+\begin{DoxyCompactList}\small\item\em Destructor virtual de la clase base \doxylink{class_persona}{Persona}. \end{DoxyCompactList}\item 
+\Hypertarget{class_persona_abea92d7fb88f9eeea409120dd64a8a7c}\label{class_persona_abea92d7fb88f9eeea409120dd64a8a7c} 
+virtual void {\bfseries Set\+Nombre} (string nombre)
+\item 
+\Hypertarget{class_persona_a4b2e8e2c28f3b6ce4c6bde40afb7969f}\label{class_persona_a4b2e8e2c28f3b6ce4c6bde40afb7969f} 
+virtual string {\bfseries Get\+Nombre} () const
+\item 
+\Hypertarget{class_persona_ad423b52ed8a553e586a975c7c0b33fb8}\label{class_persona_ad423b52ed8a553e586a975c7c0b33fb8} 
+virtual void {\bfseries Set\+Apellido} (string apellido)
+\item 
+\Hypertarget{class_persona_ab032c84dec89ac40eb29677c8af0d64d}\label{class_persona_ab032c84dec89ac40eb29677c8af0d64d} 
+virtual string {\bfseries Get\+Apellido} () const
+\item 
+\Hypertarget{class_persona_a6a196600e6258905f59ec5a7e31c1e1f}\label{class_persona_a6a196600e6258905f59ec5a7e31c1e1f} 
+virtual void {\bfseries Set\+Edad} (positivo edad)
+\item 
+\Hypertarget{class_persona_a6e727d397277cc34576786110d125351}\label{class_persona_a6e727d397277cc34576786110d125351} 
+virtual positivo {\bfseries Get\+Edad} () const
+\item 
+virtual void \mbox{\hyperlink{class_persona_a7622e7d27927f20d2bf7269ecf1e354d}{mostrar\+Informacion}} () const
+\begin{DoxyCompactList}\small\item\em Muestra la información básica de la persona. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_persona_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_persona_ab1eff3396cf027235b236153037d7a63}\index{Persona@{Persona}!````~Persona@{\texorpdfstring{$\sim$}{\string~}Persona}}
+\index{````~Persona@{\texorpdfstring{$\sim$}{\string~}Persona}!Persona@{Persona}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Persona()}{\string~Persona()}}
+{\footnotesize\ttfamily \label{class_persona_ab1eff3396cf027235b236153037d7a63} 
+virtual Persona\+::\texorpdfstring{$\sim$}{\string~}\+Persona (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Destructor virtual de la clase base \doxylink{class_persona}{Persona}. 
+
+Necesario para garantizar la correcta destrucción de objetos derivados cuando se usan punteros a la clase base. 
+
+\label{doc-func-members}
+\Hypertarget{class_persona_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_persona_a7622e7d27927f20d2bf7269ecf1e354d}\index{Persona@{Persona}!mostrarInformacion@{mostrarInformacion}}
+\index{mostrarInformacion@{mostrarInformacion}!Persona@{Persona}}
+\doxysubsubsection{\texorpdfstring{mostrarInformacion()}{mostrarInformacion()}}
+{\footnotesize\ttfamily \label{class_persona_a7622e7d27927f20d2bf7269ecf1e354d} 
+void Persona\+::mostrar\+Informacion (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Muestra la información básica de la persona. 
+
+Esta función imprime en la salida estándar (cout) el nombre, apellido y edad de la persona. Utiliza los métodos Get\+Nombre(), Get\+Apellido() y Get\+Edad() para acceder a los atributos.
+
+\begin{DoxyNote}{Note}
+Esta función es constante (const), por lo que no modifica el estado del objeto \doxylink{class_persona}{Persona}. 
+\end{DoxyNote}
+
+
+Reimplemented in \mbox{\hyperlink{class_cliente_a08517ac8330e0db4a27aecb35ef894bb}{Cliente}}, and \mbox{\hyperlink{class_mozo_ac0c2f7827398b98caa96bb30c93bb2de}{Mozo}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+restaurante/persona.\+h\item 
+restaurante/persona.\+cpp\end{DoxyCompactItemize}

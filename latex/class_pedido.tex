@@ -1,0 +1,91 @@
+\doxysection{Pedido Class Reference}
+\hypertarget{class_pedido}{}\label{class_pedido}\index{Pedido@{Pedido}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pedido_ad4fd361e2698e97b748a9ff9647b453c}{Pedido}} (codigo id)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \doxylink{class_pedido}{Pedido}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pedido_a8464ec56185befe83a8f2e9630c67615}{agregar\+Plato}} (\mbox{\hyperlink{class_plato}{Plato}} \texorpdfstring{$\ast$}{*}plato)
+\begin{DoxyCompactList}\small\item\em Agrega un plato al pedido. \end{DoxyCompactList}\item 
+\Hypertarget{class_pedido_a2260847dc78984697522e3e6c714d73c}\label{class_pedido_a2260847dc78984697522e3e6c714d73c} 
+{\footnotesize template$<$typename... Args$>$ }\\void {\bfseries agregar\+Platos} (Args... args)
+\begin{DoxyCompactList}\small\item\em Variadic template para agregar múltiples platos. \end{DoxyCompactList}\item 
+tipo\+Precio \mbox{\hyperlink{class_pedido_ab9d91e57747550062e951611225a9518}{calcular\+Total}} () const
+\begin{DoxyCompactList}\small\item\em Calcula el costo total del pedido. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pedido_a1ab492edd7447060dda68b03af1d3f25}{mostrar\+Pedido}} () const
+\begin{DoxyCompactList}\small\item\em Muestra la información completa del pedido. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_pedido_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_pedido_ad4fd361e2698e97b748a9ff9647b453c}\index{Pedido@{Pedido}!Pedido@{Pedido}}
+\index{Pedido@{Pedido}!Pedido@{Pedido}}
+\doxysubsubsection{\texorpdfstring{Pedido()}{Pedido()}}
+{\footnotesize\ttfamily \label{class_pedido_ad4fd361e2698e97b748a9ff9647b453c} 
+Pedido\+::\+Pedido (\begin{DoxyParamCaption}\item[{codigo}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase \doxylink{class_pedido}{Pedido}. 
+
+Inicializa un pedido con un identificador único.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identificador del pedido. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_pedido_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_pedido_a8464ec56185befe83a8f2e9630c67615}\index{Pedido@{Pedido}!agregarPlato@{agregarPlato}}
+\index{agregarPlato@{agregarPlato}!Pedido@{Pedido}}
+\doxysubsubsection{\texorpdfstring{agregarPlato()}{agregarPlato()}}
+{\footnotesize\ttfamily \label{class_pedido_a8464ec56185befe83a8f2e9630c67615} 
+void Pedido\+::agregar\+Plato (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_plato}{Plato}} \texorpdfstring{$\ast$}{*}}]{plato}{}\end{DoxyParamCaption})}
+
+
+
+Agrega un plato al pedido. 
+
+Esta función añade un puntero a un objeto \doxylink{class_plato}{Plato} al contenedor de platos del pedido.
+
+
+\begin{DoxyParams}{Parameters}
+{\em plato} & Puntero al objeto \doxylink{class_plato}{Plato} que se agregará al pedido. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_pedido_ab9d91e57747550062e951611225a9518}\index{Pedido@{Pedido}!calcularTotal@{calcularTotal}}
+\index{calcularTotal@{calcularTotal}!Pedido@{Pedido}}
+\doxysubsubsection{\texorpdfstring{calcularTotal()}{calcularTotal()}}
+{\footnotesize\ttfamily \label{class_pedido_ab9d91e57747550062e951611225a9518} 
+tipo\+Precio Pedido\+::calcular\+Total (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Calcula el costo total del pedido. 
+
+Recorre todos los platos del pedido y suma sus precios utilizando el método get\+Precio().
+
+\begin{DoxyReturn}{Returns}
+double El resultado fianl de la suma de los precios de los platos. 
+\end{DoxyReturn}
+\Hypertarget{class_pedido_a1ab492edd7447060dda68b03af1d3f25}\index{Pedido@{Pedido}!mostrarPedido@{mostrarPedido}}
+\index{mostrarPedido@{mostrarPedido}!Pedido@{Pedido}}
+\doxysubsubsection{\texorpdfstring{mostrarPedido()}{mostrarPedido()}}
+{\footnotesize\ttfamily \label{class_pedido_a1ab492edd7447060dda68b03af1d3f25} 
+void Pedido\+::mostrar\+Pedido (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Muestra la información completa del pedido. 
+
+Imprime el identificador del pedido, la lista de platos incluidos y el costo total calculado. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+restaurante/pedido.\+h\item 
+restaurante/pedido.\+cpp\end{DoxyCompactItemize}
